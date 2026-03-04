@@ -1,0 +1,570 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" shape-rendering="crispEdges">
+  <!-- Arena background - dark crowd -->
+  <rect width="960" height="400" fill="#0e0e18"/>
+
+  <!-- Crowd rows (silhouettes with subtle color variation) -->
+  <!-- Back row -->
+  <g opacity="0.3">
+    <rect x="0" y="20" width="8" height="12" fill="#2a1a2a"/>
+    <rect x="10" y="18" width="8" height="14" fill="#1e1e30"/>
+    <rect x="20" y="20" width="8" height="12" fill="#2a2020"/>
+    <rect x="32" y="19" width="8" height="13" fill="#1e1e30"/>
+    <rect x="42" y="20" width="8" height="12" fill="#2a1a2a"/>
+    <rect x="54" y="18" width="8" height="14" fill="#22222e"/>
+    <rect x="64" y="20" width="8" height="12" fill="#2a2020"/>
+    <rect x="76" y="19" width="8" height="13" fill="#1e1e30"/>
+    <rect x="86" y="20" width="8" height="12" fill="#2a1a2a"/>
+    <rect x="98" y="18" width="8" height="14" fill="#22222e"/>
+    <rect x="108" y="20" width="8" height="12" fill="#2a2020"/>
+    <rect x="120" y="19" width="8" height="13" fill="#1e1e30"/>
+    <rect x="130" y="18" width="8" height="14" fill="#2a1a2a"/>
+    <rect x="142" y="20" width="8" height="12" fill="#22222e"/>
+    <rect x="152" y="19" width="8" height="13" fill="#2a2020"/>
+    <rect x="164" y="20" width="8" height="12" fill="#1e1e30"/>
+    <rect x="174" y="18" width="8" height="14" fill="#2a1a2a"/>
+    <rect x="186" y="20" width="8" height="12" fill="#22222e"/>
+    <rect x="196" y="19" width="8" height="13" fill="#2a2020"/>
+    <rect x="760" y="20" width="8" height="12" fill="#2a1a2a"/>
+    <rect x="770" y="18" width="8" height="14" fill="#1e1e30"/>
+    <rect x="780" y="20" width="8" height="12" fill="#2a2020"/>
+    <rect x="792" y="19" width="8" height="13" fill="#22222e"/>
+    <rect x="802" y="18" width="8" height="14" fill="#2a1a2a"/>
+    <rect x="814" y="20" width="8" height="12" fill="#1e1e30"/>
+    <rect x="824" y="19" width="8" height="13" fill="#2a2020"/>
+    <rect x="836" y="20" width="8" height="12" fill="#22222e"/>
+    <rect x="846" y="18" width="8" height="14" fill="#2a1a2a"/>
+    <rect x="858" y="20" width="8" height="12" fill="#1e1e30"/>
+    <rect x="868" y="19" width="8" height="13" fill="#2a2020"/>
+    <rect x="880" y="20" width="8" height="12" fill="#22222e"/>
+    <rect x="890" y="18" width="8" height="14" fill="#2a1a2a"/>
+    <rect x="902" y="20" width="8" height="12" fill="#1e1e30"/>
+    <rect x="912" y="19" width="8" height="13" fill="#22222e"/>
+    <rect x="924" y="20" width="8" height="12" fill="#2a2020"/>
+    <rect x="936" y="18" width="8" height="14" fill="#2a1a2a"/>
+    <rect x="948" y="20" width="8" height="12" fill="#1e1e30"/>
+  </g>
+
+  <!-- Middle crowd row -->
+  <g opacity="0.4">
+    <rect x="0" y="36" width="8" height="14" fill="#2e1e2e"/>
+    <rect x="12" y="34" width="8" height="16" fill="#22223a"/>
+    <rect x="24" y="36" width="8" height="14" fill="#2e2222"/>
+    <rect x="36" y="34" width="8" height="16" fill="#282840"/>
+    <rect x="48" y="36" width="8" height="14" fill="#2e1e2e"/>
+    <rect x="60" y="34" width="8" height="16" fill="#22223a"/>
+    <rect x="72" y="35" width="8" height="15" fill="#2e2222"/>
+    <rect x="84" y="34" width="8" height="16" fill="#282840"/>
+    <rect x="96" y="36" width="8" height="14" fill="#2e1e2e"/>
+    <rect x="108" y="34" width="8" height="16" fill="#22223a"/>
+    <rect x="120" y="35" width="8" height="15" fill="#2e2222"/>
+    <rect x="132" y="36" width="8" height="14" fill="#282840"/>
+    <rect x="144" y="34" width="8" height="16" fill="#2e1e2e"/>
+    <rect x="156" y="35" width="8" height="15" fill="#22223a"/>
+    <rect x="168" y="36" width="8" height="14" fill="#2e2222"/>
+    <rect x="180" y="34" width="8" height="16" fill="#282840"/>
+    <rect x="780" y="36" width="8" height="14" fill="#2e1e2e"/>
+    <rect x="792" y="34" width="8" height="16" fill="#22223a"/>
+    <rect x="804" y="35" width="8" height="15" fill="#2e2222"/>
+    <rect x="816" y="36" width="8" height="14" fill="#282840"/>
+    <rect x="828" y="34" width="8" height="16" fill="#2e1e2e"/>
+    <rect x="840" y="35" width="8" height="15" fill="#22223a"/>
+    <rect x="852" y="36" width="8" height="14" fill="#2e2222"/>
+    <rect x="864" y="34" width="8" height="16" fill="#282840"/>
+    <rect x="876" y="35" width="8" height="15" fill="#2e1e2e"/>
+    <rect x="888" y="36" width="8" height="14" fill="#22223a"/>
+    <rect x="900" y="34" width="8" height="16" fill="#2e2222"/>
+    <rect x="912" y="36" width="8" height="14" fill="#282840"/>
+    <rect x="924" y="34" width="8" height="16" fill="#2e1e2e"/>
+    <rect x="936" y="35" width="8" height="15" fill="#22223a"/>
+    <rect x="948" y="36" width="8" height="14" fill="#2e2222"/>
+  </g>
+
+  <!-- Front crowd row -->
+  <g opacity="0.5">
+    <rect x="0" y="54" width="8" height="16" fill="#332233"/>
+    <rect x="12" y="52" width="8" height="18" fill="#2a2a44"/>
+    <rect x="24" y="54" width="8" height="16" fill="#332828"/>
+    <rect x="36" y="52" width="8" height="18" fill="#2a2a44"/>
+    <rect x="48" y="53" width="8" height="17" fill="#332233"/>
+    <rect x="60" y="54" width="8" height="16" fill="#2a2a44"/>
+    <rect x="72" y="52" width="8" height="18" fill="#332828"/>
+    <rect x="84" y="54" width="8" height="16" fill="#2a2a44"/>
+    <rect x="96" y="52" width="8" height="18" fill="#332233"/>
+    <rect x="108" y="54" width="8" height="16" fill="#2a2a44"/>
+    <rect x="120" y="52" width="8" height="18" fill="#332828"/>
+    <rect x="132" y="53" width="8" height="17" fill="#2a2a44"/>
+    <rect x="144" y="54" width="8" height="16" fill="#332233"/>
+    <rect x="156" y="52" width="8" height="18" fill="#332828"/>
+    <rect x="168" y="54" width="8" height="16" fill="#2a2a44"/>
+    <rect x="800" y="54" width="8" height="16" fill="#332233"/>
+    <rect x="812" y="52" width="8" height="18" fill="#2a2a44"/>
+    <rect x="824" y="53" width="8" height="17" fill="#332828"/>
+    <rect x="836" y="54" width="8" height="16" fill="#2a2a44"/>
+    <rect x="848" y="52" width="8" height="18" fill="#332233"/>
+    <rect x="860" y="54" width="8" height="16" fill="#2a2a44"/>
+    <rect x="872" y="52" width="8" height="18" fill="#332828"/>
+    <rect x="884" y="54" width="8" height="16" fill="#2a2a44"/>
+    <rect x="896" y="52" width="8" height="18" fill="#332233"/>
+    <rect x="908" y="54" width="8" height="16" fill="#332828"/>
+    <rect x="920" y="52" width="8" height="18" fill="#2a2a44"/>
+    <rect x="932" y="54" width="8" height="16" fill="#332233"/>
+    <rect x="944" y="52" width="8" height="18" fill="#332828"/>
+  </g>
+
+  <!-- Arena lights (top) -->
+  <rect x="200" y="0" width="16" height="8" fill="#ffee88" opacity="0.6"/>
+  <rect x="320" y="0" width="16" height="8" fill="#ffee88" opacity="0.5"/>
+  <rect x="470" y="0" width="24" height="8" fill="#ffee88" opacity="0.7"/>
+  <rect x="620" y="0" width="16" height="8" fill="#ffee88" opacity="0.5"/>
+  <rect x="740" y="0" width="16" height="8" fill="#ffee88" opacity="0.6"/>
+
+  <!-- Light beams -->
+  <rect x="204" y="8" width="8" height="60" fill="#ffee88" opacity="0.02"/>
+  <rect x="476" y="8" width="12" height="60" fill="#ffee88" opacity="0.03"/>
+  <rect x="744" y="8" width="8" height="60" fill="#ffee88" opacity="0.02"/>
+
+  <!-- ===== BOXING RING ===== -->
+
+  <!-- Ring floor / canvas -->
+  <rect x="160" y="220" width="640" height="120" fill="#c8b898"/>
+  <rect x="160" y="220" width="640" height="4" fill="#d8c8a8"/>
+
+  <!-- Ring canvas texture -->
+  <g opacity="0.06">
+    <rect x="200" y="240" width="120" height="2" fill="#000"/>
+    <rect x="360" y="260" width="80" height="2" fill="#000"/>
+    <rect x="500" y="240" width="120" height="2" fill="#000"/>
+    <rect x="300" y="280" width="160" height="2" fill="#000"/>
+    <rect x="520" y="300" width="100" height="2" fill="#000"/>
+  </g>
+
+  <!-- Center ring logo -->
+  <rect x="440" y="268" width="80" height="48" fill="#b8a888" rx="4"/>
+  <rect x="448" y="276" width="64" height="32" fill="#c8b898"/>
+  <!-- Ring circle -->
+  <rect x="464" y="280" width="8" height="8" fill="#a89878" opacity="0.5"/>
+  <rect x="472" y="276" width="8" height="8" fill="#a89878" opacity="0.5"/>
+  <rect x="480" y="276" width="8" height="8" fill="#a89878" opacity="0.5"/>
+  <rect x="488" y="280" width="8" height="8" fill="#a89878" opacity="0.5"/>
+  <rect x="492" y="288" width="8" height="8" fill="#a89878" opacity="0.5"/>
+  <rect x="460" y="288" width="8" height="8" fill="#a89878" opacity="0.5"/>
+  <rect x="464" y="296" width="8" height="8" fill="#a89878" opacity="0.5"/>
+  <rect x="472" y="300" width="8" height="8" fill="#a89878" opacity="0.5"/>
+  <rect x="480" y="300" width="8" height="8" fill="#a89878" opacity="0.5"/>
+  <rect x="488" y="296" width="8" height="8" fill="#a89878" opacity="0.5"/>
+
+  <!-- Ring apron (sides) -->
+  <rect x="152" y="336" width="656" height="16" fill="#2244aa"/>
+  <rect x="152" y="336" width="656" height="4" fill="#3355bb"/>
+  <!-- Apron bottom -->
+  <rect x="152" y="352" width="656" height="8" fill="#1a3388"/>
+
+  <!-- Ring skirt -->
+  <rect x="148" y="360" width="664" height="40" fill="#1a3388"/>
+  <rect x="148" y="360" width="664" height="4" fill="#0e2266"/>
+
+  <!-- ===== CORNER POSTS ===== -->
+  <!-- Left near post -->
+  <rect x="160" y="80" width="12" height="260" fill="#888"/>
+  <rect x="160" y="80" width="4" height="260" fill="#999"/>
+  <rect x="160" y="76" width="12" height="8" fill="#aaa"/>
+
+  <!-- Right near post -->
+  <rect x="788" y="80" width="12" height="260" fill="#888"/>
+  <rect x="796" y="80" width="4" height="260" fill="#777"/>
+  <rect x="788" y="76" width="12" height="8" fill="#aaa"/>
+
+  <!-- Turnbuckle pads -->
+  <!-- Left -->
+  <rect x="156" y="100" width="20" height="16" fill="#dd2222"/>
+  <rect x="156" y="100" width="20" height="4" fill="#ee3333"/>
+  <rect x="156" y="164" width="20" height="16" fill="#dd2222"/>
+  <rect x="156" y="164" width="20" height="4" fill="#ee3333"/>
+  <rect x="156" y="200" width="20" height="16" fill="#dd2222"/>
+  <rect x="156" y="200" width="20" height="4" fill="#ee3333"/>
+  <!-- Right -->
+  <rect x="784" y="100" width="20" height="16" fill="#2222dd"/>
+  <rect x="784" y="100" width="20" height="4" fill="#3333ee"/>
+  <rect x="784" y="164" width="20" height="16" fill="#2222dd"/>
+  <rect x="784" y="164" width="20" height="4" fill="#3333ee"/>
+  <rect x="784" y="200" width="20" height="16" fill="#2222dd"/>
+  <rect x="784" y="200" width="20" height="4" fill="#3333ee"/>
+
+  <!-- ===== ROPES ===== -->
+  <!-- Top rope -->
+  <rect x="172" y="104" width="616" height="4" fill="#e8e8e8"/>
+  <rect x="172" y="104" width="616" height="2" fill="#fff"/>
+  <!-- Middle rope -->
+  <rect x="172" y="168" width="616" height="4" fill="#e8e8e8"/>
+  <rect x="172" y="168" width="616" height="2" fill="#fff"/>
+  <!-- Bottom rope -->
+  <rect x="172" y="204" width="616" height="4" fill="#e8e8e8"/>
+  <rect x="172" y="204" width="616" height="2" fill="#fff"/>
+
+  <!-- ===== RED CORNER BOXER (Left) ===== -->
+  <g>
+    <!-- Shadow on canvas -->
+    <rect x="296" y="308" width="72" height="12" fill="#000" opacity="0.15" rx="4"/>
+
+    <!-- Boots -->
+    <rect x="304" y="296" width="8" height="8" fill="#aa1111"/>
+    <rect x="312" y="296" width="8" height="8" fill="#cc2222"/>
+    <rect x="316" y="288" width="8" height="8" fill="#cc2222"/>
+    <rect x="340" y="296" width="8" height="8" fill="#cc2222"/>
+    <rect x="348" y="296" width="8" height="8" fill="#aa1111"/>
+    <rect x="340" y="288" width="8" height="8" fill="#cc2222"/>
+    <!-- Boot laces -->
+    <rect x="312" y="292" width="4" height="2" fill="#eee"/>
+    <rect x="344" y="292" width="4" height="2" fill="#eee"/>
+
+    <!-- Legs -->
+    <rect x="312" y="268" width="8" height="8" fill="#c08050"/>
+    <rect x="312" y="276" width="8" height="8" fill="#c08050"/>
+    <rect x="316" y="284" width="8" height="8" fill="#c08050"/>
+    <rect x="340" y="268" width="8" height="8" fill="#c08050"/>
+    <rect x="340" y="276" width="8" height="8" fill="#c08050"/>
+    <rect x="340" y="284" width="8" height="8" fill="#c08050"/>
+
+    <!-- Trunks (red) -->
+    <rect x="304" y="248" width="8" height="8" fill="#cc1111"/>
+    <rect x="312" y="248" width="8" height="8" fill="#dd2222"/>
+    <rect x="320" y="248" width="8" height="8" fill="#dd2222"/>
+    <rect x="328" y="248" width="8" height="8" fill="#dd2222"/>
+    <rect x="336" y="248" width="8" height="8" fill="#dd2222"/>
+    <rect x="344" y="248" width="8" height="8" fill="#cc1111"/>
+    <rect x="304" y="256" width="8" height="8" fill="#bb0000"/>
+    <rect x="312" y="256" width="8" height="8" fill="#cc1111"/>
+    <rect x="320" y="256" width="8" height="8" fill="#dd2222"/>
+    <rect x="328" y="256" width="8" height="8" fill="#dd2222"/>
+    <rect x="336" y="256" width="8" height="8" fill="#cc1111"/>
+    <rect x="344" y="256" width="8" height="8" fill="#bb0000"/>
+    <rect x="308" y="264" width="8" height="8" fill="#cc1111"/>
+    <rect x="316" y="264" width="8" height="8" fill="#cc1111"/>
+    <rect x="336" y="264" width="8" height="8" fill="#cc1111"/>
+    <rect x="344" y="264" width="8" height="8" fill="#cc1111"/>
+    <!-- Waistband -->
+    <rect x="304" y="244" width="8" height="4" fill="#ffcc00"/>
+    <rect x="312" y="244" width="8" height="4" fill="#ffdd22"/>
+    <rect x="320" y="244" width="8" height="4" fill="#ffdd22"/>
+    <rect x="328" y="244" width="8" height="4" fill="#ffdd22"/>
+    <rect x="336" y="244" width="8" height="4" fill="#ffdd22"/>
+    <rect x="344" y="244" width="8" height="4" fill="#ffcc00"/>
+
+    <!-- Torso -->
+    <rect x="308" y="208" width="8" height="8" fill="#c08050"/>
+    <rect x="316" y="208" width="8" height="8" fill="#cc8858"/>
+    <rect x="324" y="208" width="8" height="8" fill="#d09060"/>
+    <rect x="332" y="208" width="8" height="8" fill="#cc8858"/>
+    <rect x="340" y="208" width="8" height="8" fill="#c08050"/>
+    <rect x="304" y="216" width="8" height="8" fill="#b87848"/>
+    <rect x="312" y="216" width="8" height="8" fill="#c08050"/>
+    <rect x="320" y="216" width="8" height="8" fill="#cc8858"/>
+    <rect x="328" y="216" width="8" height="8" fill="#cc8858"/>
+    <rect x="336" y="216" width="8" height="8" fill="#c08050"/>
+    <rect x="344" y="216" width="8" height="8" fill="#b87848"/>
+    <rect x="304" y="224" width="8" height="8" fill="#b87848"/>
+    <rect x="312" y="224" width="8" height="8" fill="#c08050"/>
+    <rect x="320" y="224" width="8" height="8" fill="#cc8858"/>
+    <rect x="328" y="224" width="8" height="8" fill="#cc8858"/>
+    <rect x="336" y="224" width="8" height="8" fill="#c08050"/>
+    <rect x="344" y="224" width="8" height="8" fill="#b87848"/>
+    <rect x="308" y="232" width="8" height="8" fill="#c08050"/>
+    <rect x="316" y="232" width="8" height="8" fill="#cc8858"/>
+    <rect x="324" y="232" width="8" height="8" fill="#cc8858"/>
+    <rect x="332" y="232" width="8" height="8" fill="#cc8858"/>
+    <rect x="340" y="232" width="8" height="8" fill="#c08050"/>
+    <!-- Abs suggestion -->
+    <rect x="320" y="228" width="4" height="4" fill="#b87848" opacity="0.4"/>
+    <rect x="328" y="228" width="4" height="4" fill="#b87848" opacity="0.4"/>
+    <rect x="320" y="236" width="4" height="4" fill="#b87848" opacity="0.4"/>
+    <rect x="328" y="236" width="4" height="4" fill="#b87848" opacity="0.4"/>
+
+    <!-- Shoulders -->
+    <rect x="296" y="200" width="8" height="8" fill="#c08050"/>
+    <rect x="304" y="200" width="8" height="8" fill="#cc8858"/>
+    <rect x="312" y="200" width="8" height="8" fill="#cc8858"/>
+    <rect x="320" y="200" width="8" height="8" fill="#d09060"/>
+    <rect x="328" y="200" width="8" height="8" fill="#d09060"/>
+    <rect x="336" y="200" width="8" height="8" fill="#cc8858"/>
+    <rect x="344" y="200" width="8" height="8" fill="#cc8858"/>
+    <rect x="352" y="200" width="8" height="8" fill="#c08050"/>
+
+    <!-- Head -->
+    <rect x="312" y="168" width="8" height="8" fill="#cc8858"/>
+    <rect x="320" y="168" width="8" height="8" fill="#d09060"/>
+    <rect x="328" y="168" width="8" height="8" fill="#d09060"/>
+    <rect x="336" y="168" width="8" height="8" fill="#cc8858"/>
+    <rect x="308" y="176" width="8" height="8" fill="#c08050"/>
+    <rect x="316" y="176" width="8" height="8" fill="#d09060"/>
+    <rect x="324" y="176" width="8" height="8" fill="#d09060"/>
+    <rect x="332" y="176" width="8" height="8" fill="#d09060"/>
+    <rect x="340" y="176" width="8" height="8" fill="#c08050"/>
+    <rect x="308" y="184" width="8" height="8" fill="#c08050"/>
+    <rect x="316" y="184" width="8" height="8" fill="#d09060"/>
+    <rect x="324" y="184" width="8" height="8" fill="#d09060"/>
+    <rect x="332" y="184" width="8" height="8" fill="#d09060"/>
+    <rect x="340" y="184" width="8" height="8" fill="#c08050"/>
+    <!-- Short hair -->
+    <rect x="312" y="164" width="8" height="8" fill="#1a1a1a"/>
+    <rect x="320" y="164" width="8" height="8" fill="#1a1a1a"/>
+    <rect x="328" y="164" width="8" height="8" fill="#1a1a1a"/>
+    <rect x="336" y="164" width="8" height="8" fill="#1a1a1a"/>
+    <rect x="308" y="168" width="4" height="8" fill="#1a1a1a"/>
+    <!-- Eyes (determined) -->
+    <rect x="316" y="178" width="6" height="4" fill="#222"/>
+    <rect x="332" y="178" width="6" height="4" fill="#222"/>
+    <!-- Nose -->
+    <rect x="324" y="182" width="4" height="4" fill="#b87848"/>
+    <!-- Mouth guard / mouth -->
+    <rect x="318" y="188" width="4" height="4" fill="#eee"/>
+    <rect x="322" y="188" width="8" height="4" fill="#ddd"/>
+    <rect x="330" y="188" width="4" height="4" fill="#eee"/>
+    <!-- Neck -->
+    <rect x="320" y="192" width="8" height="8" fill="#c08050"/>
+    <rect x="328" y="192" width="8" height="8" fill="#c08050"/>
+
+    <!-- Left arm (guard up - fist near face) -->
+    <rect x="296" y="208" width="8" height="8" fill="#c08050"/>
+    <rect x="292" y="200" width="8" height="8" fill="#c08050"/>
+    <rect x="288" y="192" width="8" height="8" fill="#c08050"/>
+    <rect x="288" y="184" width="8" height="8" fill="#c08050"/>
+    <!-- Left glove (red, guard position near chin) -->
+    <rect x="284" y="172" width="8" height="8" fill="#dd1111"/>
+    <rect x="292" y="172" width="8" height="8" fill="#ee2222"/>
+    <rect x="284" y="180" width="8" height="8" fill="#cc0000"/>
+    <rect x="292" y="180" width="8" height="8" fill="#dd1111"/>
+    <rect x="280" y="176" width="4" height="8" fill="#bb0000"/>
+
+    <!-- Right arm (cocked back, ready to punch) -->
+    <rect x="352" y="208" width="8" height="8" fill="#c08050"/>
+    <rect x="360" y="200" width="8" height="8" fill="#c08050"/>
+    <rect x="364" y="192" width="8" height="8" fill="#c08050"/>
+    <rect x="368" y="184" width="8" height="8" fill="#c08050"/>
+    <!-- Right glove (cocked back) -->
+    <rect x="368" y="172" width="8" height="8" fill="#dd1111"/>
+    <rect x="376" y="172" width="8" height="8" fill="#ee2222"/>
+    <rect x="368" y="180" width="8" height="8" fill="#cc0000"/>
+    <rect x="376" y="180" width="8" height="8" fill="#dd1111"/>
+    <rect x="384" y="176" width="4" height="8" fill="#bb0000"/>
+  </g>
+
+  <!-- ===== BLUE CORNER BOXER (Right) ===== -->
+  <g>
+    <!-- Shadow on canvas -->
+    <rect x="568" y="308" width="72" height="12" fill="#000" opacity="0.15" rx="4"/>
+
+    <!-- Boots -->
+    <rect x="576" y="296" width="8" height="8" fill="#1144aa"/>
+    <rect x="584" y="296" width="8" height="8" fill="#2255cc"/>
+    <rect x="580" y="288" width="8" height="8" fill="#2255cc"/>
+    <rect x="612" y="296" width="8" height="8" fill="#2255cc"/>
+    <rect x="620" y="296" width="8" height="8" fill="#1144aa"/>
+    <rect x="612" y="288" width="8" height="8" fill="#2255cc"/>
+    <!-- Boot laces -->
+    <rect x="584" y="292" width="4" height="2" fill="#eee"/>
+    <rect x="616" y="292" width="4" height="2" fill="#eee"/>
+
+    <!-- Legs -->
+    <rect x="580" y="268" width="8" height="8" fill="#e0a878"/>
+    <rect x="580" y="276" width="8" height="8" fill="#e0a878"/>
+    <rect x="580" y="284" width="8" height="8" fill="#e0a878"/>
+    <rect x="612" y="268" width="8" height="8" fill="#e0a878"/>
+    <rect x="612" y="276" width="8" height="8" fill="#e0a878"/>
+    <rect x="612" y="284" width="8" height="8" fill="#e0a878"/>
+
+    <!-- Trunks (blue) -->
+    <rect x="576" y="248" width="8" height="8" fill="#1144cc"/>
+    <rect x="584" y="248" width="8" height="8" fill="#2255dd"/>
+    <rect x="592" y="248" width="8" height="8" fill="#2255dd"/>
+    <rect x="600" y="248" width="8" height="8" fill="#2255dd"/>
+    <rect x="608" y="248" width="8" height="8" fill="#2255dd"/>
+    <rect x="616" y="248" width="8" height="8" fill="#1144cc"/>
+    <rect x="576" y="256" width="8" height="8" fill="#0033bb"/>
+    <rect x="584" y="256" width="8" height="8" fill="#1144cc"/>
+    <rect x="592" y="256" width="8" height="8" fill="#2255dd"/>
+    <rect x="600" y="256" width="8" height="8" fill="#2255dd"/>
+    <rect x="608" y="256" width="8" height="8" fill="#1144cc"/>
+    <rect x="616" y="256" width="8" height="8" fill="#0033bb"/>
+    <rect x="576" y="264" width="8" height="8" fill="#1144cc"/>
+    <rect x="584" y="264" width="8" height="8" fill="#1144cc"/>
+    <rect x="608" y="264" width="8" height="8" fill="#1144cc"/>
+    <rect x="616" y="264" width="8" height="8" fill="#1144cc"/>
+    <!-- Waistband -->
+    <rect x="576" y="244" width="8" height="4" fill="#cccccc"/>
+    <rect x="584" y="244" width="8" height="4" fill="#dddddd"/>
+    <rect x="592" y="244" width="8" height="4" fill="#dddddd"/>
+    <rect x="600" y="244" width="8" height="4" fill="#dddddd"/>
+    <rect x="608" y="244" width="8" height="4" fill="#dddddd"/>
+    <rect x="616" y="244" width="8" height="4" fill="#cccccc"/>
+
+    <!-- Torso -->
+    <rect x="580" y="208" width="8" height="8" fill="#e0a878"/>
+    <rect x="588" y="208" width="8" height="8" fill="#e8b080"/>
+    <rect x="596" y="208" width="8" height="8" fill="#f0b888"/>
+    <rect x="604" y="208" width="8" height="8" fill="#e8b080"/>
+    <rect x="612" y="208" width="8" height="8" fill="#e0a878"/>
+    <rect x="576" y="216" width="8" height="8" fill="#d8a070"/>
+    <rect x="584" y="216" width="8" height="8" fill="#e0a878"/>
+    <rect x="592" y="216" width="8" height="8" fill="#e8b080"/>
+    <rect x="600" y="216" width="8" height="8" fill="#e8b080"/>
+    <rect x="608" y="216" width="8" height="8" fill="#e0a878"/>
+    <rect x="616" y="216" width="8" height="8" fill="#d8a070"/>
+    <rect x="576" y="224" width="8" height="8" fill="#d8a070"/>
+    <rect x="584" y="224" width="8" height="8" fill="#e0a878"/>
+    <rect x="592" y="224" width="8" height="8" fill="#e8b080"/>
+    <rect x="600" y="224" width="8" height="8" fill="#e8b080"/>
+    <rect x="608" y="224" width="8" height="8" fill="#e0a878"/>
+    <rect x="616" y="224" width="8" height="8" fill="#d8a070"/>
+    <rect x="580" y="232" width="8" height="8" fill="#e0a878"/>
+    <rect x="588" y="232" width="8" height="8" fill="#e8b080"/>
+    <rect x="596" y="232" width="8" height="8" fill="#e8b080"/>
+    <rect x="604" y="232" width="8" height="8" fill="#e8b080"/>
+    <rect x="612" y="232" width="8" height="8" fill="#e0a878"/>
+    <!-- Abs -->
+    <rect x="592" y="228" width="4" height="4" fill="#d8a070" opacity="0.4"/>
+    <rect x="600" y="228" width="4" height="4" fill="#d8a070" opacity="0.4"/>
+    <rect x="592" y="236" width="4" height="4" fill="#d8a070" opacity="0.4"/>
+    <rect x="600" y="236" width="4" height="4" fill="#d8a070" opacity="0.4"/>
+
+    <!-- Shoulders -->
+    <rect x="568" y="200" width="8" height="8" fill="#e0a878"/>
+    <rect x="576" y="200" width="8" height="8" fill="#e8b080"/>
+    <rect x="584" y="200" width="8" height="8" fill="#e8b080"/>
+    <rect x="592" y="200" width="8" height="8" fill="#f0b888"/>
+    <rect x="600" y="200" width="8" height="8" fill="#f0b888"/>
+    <rect x="608" y="200" width="8" height="8" fill="#e8b080"/>
+    <rect x="616" y="200" width="8" height="8" fill="#e8b080"/>
+    <rect x="624" y="200" width="8" height="8" fill="#e0a878"/>
+
+    <!-- Head -->
+    <rect x="584" y="168" width="8" height="8" fill="#e8b080"/>
+    <rect x="592" y="168" width="8" height="8" fill="#f0b888"/>
+    <rect x="600" y="168" width="8" height="8" fill="#f0b888"/>
+    <rect x="608" y="168" width="8" height="8" fill="#e8b080"/>
+    <rect x="580" y="176" width="8" height="8" fill="#e0a878"/>
+    <rect x="588" y="176" width="8" height="8" fill="#f0b888"/>
+    <rect x="596" y="176" width="8" height="8" fill="#f0b888"/>
+    <rect x="604" y="176" width="8" height="8" fill="#f0b888"/>
+    <rect x="612" y="176" width="8" height="8" fill="#e0a878"/>
+    <rect x="580" y="184" width="8" height="8" fill="#e0a878"/>
+    <rect x="588" y="184" width="8" height="8" fill="#f0b888"/>
+    <rect x="596" y="184" width="8" height="8" fill="#f0b888"/>
+    <rect x="604" y="184" width="8" height="8" fill="#f0b888"/>
+    <rect x="612" y="184" width="8" height="8" fill="#e0a878"/>
+    <!-- Blonde buzz cut -->
+    <rect x="584" y="164" width="8" height="8" fill="#ddb844"/>
+    <rect x="592" y="164" width="8" height="8" fill="#ddb844"/>
+    <rect x="600" y="164" width="8" height="8" fill="#ddb844"/>
+    <rect x="608" y="164" width="8" height="8" fill="#ddb844"/>
+    <rect x="612" y="168" width="4" height="8" fill="#ddb844"/>
+    <!-- Eyes -->
+    <rect x="588" y="178" width="6" height="4" fill="#222"/>
+    <rect x="604" y="178" width="6" height="4" fill="#222"/>
+    <!-- Nose -->
+    <rect x="596" y="182" width="4" height="4" fill="#d8a070"/>
+    <!-- Mouth guard -->
+    <rect x="590" y="188" width="4" height="4" fill="#eee"/>
+    <rect x="594" y="188" width="8" height="4" fill="#ddd"/>
+    <rect x="602" y="188" width="4" height="4" fill="#eee"/>
+    <!-- Neck -->
+    <rect x="592" y="192" width="8" height="8" fill="#e0a878"/>
+    <rect x="600" y="192" width="8" height="8" fill="#e0a878"/>
+
+    <!-- Right arm (guard up) -->
+    <rect x="624" y="208" width="8" height="8" fill="#e0a878"/>
+    <rect x="628" y="200" width="8" height="8" fill="#e0a878"/>
+    <rect x="632" y="192" width="8" height="8" fill="#e0a878"/>
+    <rect x="632" y="184" width="8" height="8" fill="#e0a878"/>
+    <!-- Right glove (guard) -->
+    <rect x="632" y="172" width="8" height="8" fill="#1144cc"/>
+    <rect x="640" y="172" width="8" height="8" fill="#2255dd"/>
+    <rect x="632" y="180" width="8" height="8" fill="#0033bb"/>
+    <rect x="640" y="180" width="8" height="8" fill="#1144cc"/>
+    <rect x="648" y="176" width="4" height="8" fill="#0033bb"/>
+
+    <!-- Left arm (lead hand forward, ready to jab) -->
+    <rect x="568" y="208" width="8" height="8" fill="#e0a878"/>
+    <rect x="560" y="200" width="8" height="8" fill="#e0a878"/>
+    <rect x="552" y="192" width="8" height="8" fill="#e0a878"/>
+    <rect x="544" y="184" width="8" height="8" fill="#e0a878"/>
+    <!-- Left glove (lead) -->
+    <rect x="536" y="172" width="8" height="8" fill="#1144cc"/>
+    <rect x="544" y="172" width="8" height="8" fill="#2255dd"/>
+    <rect x="536" y="180" width="8" height="8" fill="#0033bb"/>
+    <rect x="544" y="180" width="8" height="8" fill="#1144cc"/>
+    <rect x="532" y="176" width="4" height="8" fill="#0033bb"/>
+  </g>
+
+  <!-- ===== REFEREE (center, smaller, between them) ===== -->
+  <g>
+    <!-- Ref shirt (black and white striped) -->
+    <rect x="464" y="220" width="8" height="8" fill="#222"/>
+    <rect x="472" y="220" width="8" height="8" fill="#eee"/>
+    <rect x="480" y="220" width="8" height="8" fill="#222"/>
+    <rect x="488" y="220" width="8" height="8" fill="#eee"/>
+    <rect x="496" y="220" width="8" height="8" fill="#222"/>
+    <rect x="464" y="228" width="8" height="8" fill="#eee"/>
+    <rect x="472" y="228" width="8" height="8" fill="#222"/>
+    <rect x="480" y="228" width="8" height="8" fill="#eee"/>
+    <rect x="488" y="228" width="8" height="8" fill="#222"/>
+    <rect x="496" y="228" width="8" height="8" fill="#eee"/>
+    <rect x="464" y="236" width="8" height="8" fill="#222"/>
+    <rect x="472" y="236" width="8" height="8" fill="#eee"/>
+    <rect x="480" y="236" width="8" height="8" fill="#222"/>
+    <rect x="488" y="236" width="8" height="8" fill="#eee"/>
+    <rect x="496" y="236" width="8" height="8" fill="#222"/>
+    <!-- Ref pants -->
+    <rect x="468" y="244" width="8" height="8" fill="#111"/>
+    <rect x="476" y="244" width="8" height="8" fill="#1a1a1a"/>
+    <rect x="484" y="244" width="8" height="8" fill="#1a1a1a"/>
+    <rect x="492" y="244" width="8" height="8" fill="#111"/>
+    <rect x="468" y="252" width="8" height="8" fill="#111"/>
+    <rect x="476" y="252" width="8" height="8" fill="#111"/>
+    <rect x="484" y="252" width="8" height="8" fill="#111"/>
+    <rect x="492" y="252" width="8" height="8" fill="#111"/>
+    <!-- Ref head -->
+    <rect x="472" y="200" width="8" height="8" fill="#d8a070"/>
+    <rect x="480" y="200" width="8" height="8" fill="#e0a878"/>
+    <rect x="488" y="200" width="8" height="8" fill="#d8a070"/>
+    <rect x="472" y="208" width="8" height="8" fill="#e0a878"/>
+    <rect x="480" y="208" width="8" height="8" fill="#e0a878"/>
+    <rect x="488" y="208" width="8" height="8" fill="#d8a070"/>
+    <!-- Ref hair -->
+    <rect x="472" y="196" width="8" height="8" fill="#333"/>
+    <rect x="480" y="196" width="8" height="8" fill="#333"/>
+    <rect x="488" y="196" width="8" height="8" fill="#333"/>
+    <!-- Ref arms out (separating fighters) -->
+    <rect x="456" y="224" width="8" height="8" fill="#d8a070"/>
+    <rect x="448" y="220" width="8" height="8" fill="#d8a070"/>
+    <rect x="440" y="216" width="8" height="8" fill="#d8a070"/>
+    <rect x="504" y="224" width="8" height="8" fill="#d8a070"/>
+    <rect x="512" y="220" width="8" height="8" fill="#d8a070"/>
+    <rect x="520" y="216" width="8" height="8" fill="#d8a070"/>
+    <!-- Ref shoes -->
+    <rect x="464" y="260" width="8" height="8" fill="#222"/>
+    <rect x="472" y="260" width="8" height="8" fill="#222"/>
+    <rect x="488" y="260" width="8" height="8" fill="#222"/>
+    <rect x="496" y="260" width="8" height="8" fill="#222"/>
+  </g>
+
+  <!-- ===== SPOTLIGHT EFFECTS ===== -->
+  <rect x="260" y="80" width="160" height="240" fill="#ffee88" opacity="0.02"/>
+  <rect x="540" y="80" width="160" height="240" fill="#ffee88" opacity="0.02"/>
+
+  <!-- ===== FLOOR AREA under ring ===== -->
+  <rect x="0" y="360" width="960" height="40" fill="#0a0a14"/>
+
+  <!-- Ringside table/judges -->
+  <rect x="40" y="340" width="80" height="24" fill="#333"/>
+  <rect x="40" y="340" width="80" height="4" fill="#444"/>
+  <!-- Judge silhouettes -->
+  <rect x="52" y="324" width="8" height="16" fill="#222"/>
+  <rect x="68" y="322" width="8" height="18" fill="#222"/>
+  <rect x="84" y="324" width="8" height="16" fill="#222"/>
+  <rect x="100" y="322" width="8" height="18" fill="#222"/>
+
+  <!-- Camera crew -->
+  <rect x="860" y="328" width="8" height="16" fill="#222"/>
+  <rect x="848" y="332" width="12" height="8" fill="#333"/>
+  <rect x="844" y="334" width="4" height="4" fill="#ff3333" opacity="0.8"/>
+</svg>

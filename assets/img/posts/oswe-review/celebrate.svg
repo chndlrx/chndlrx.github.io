@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" shape-rendering="crispEdges">
+  <!-- Background - bright festive blue -->
+  <rect width="960" height="400" fill="#2244aa"/>
+
+  <!-- Ground -->
+  <rect x="0" y="320" width="960" height="80" fill="#1a3388"/>
+
+  <!-- ===== TROPHY (center) ===== -->
+  <!-- Cup -->
+  <rect x="400" y="160" width="160" height="120" fill="#ddaa22"/>
+  <rect x="400" y="160" width="160" height="20" fill="#eebb33"/>
+  <rect x="400" y="260" width="160" height="20" fill="#cc9911"/>
+  <!-- Cup inner shadow -->
+  <rect x="420" y="180" width="120" height="60" fill="#cc9911"/>
+  <rect x="440" y="180" width="80" height="40" fill="#ddaa22"/>
+  <!-- Handles -->
+  <rect x="360" y="180" width="40" height="20" fill="#ddaa22"/>
+  <rect x="360" y="200" width="20" height="40" fill="#ddaa22"/>
+  <rect x="360" y="240" width="40" height="20" fill="#ddaa22"/>
+  <rect x="560" y="180" width="40" height="20" fill="#ddaa22"/>
+  <rect x="580" y="200" width="20" height="40" fill="#ddaa22"/>
+  <rect x="560" y="240" width="40" height="20" fill="#ddaa22"/>
+  <!-- Handle highlights -->
+  <rect x="360" y="180" width="40" height="10" fill="#eebb33"/>
+  <rect x="560" y="180" width="40" height="10" fill="#eebb33"/>
+  <!-- Stem -->
+  <rect x="450" y="280" width="60" height="20" fill="#cc9911"/>
+  <!-- Base -->
+  <rect x="420" y="300" width="120" height="20" fill="#ddaa22"/>
+  <rect x="420" y="300" width="120" height="8" fill="#eebb33"/>
+  <!-- Star on trophy -->
+  <rect x="468" y="200" width="24" height="24" fill="#fff" opacity="0.4"/>
+
+  <!-- ===== PERSON LEFT (arms up) ===== -->
+  <!-- Body -->
+  <rect x="160" y="220" width="60" height="80" fill="#ee3355"/>
+  <rect x="160" y="220" width="60" height="16" fill="#ff4466"/>
+  <!-- Head -->
+  <rect x="168" y="168" width="44" height="44" fill="#f0c098"/>
+  <rect x="168" y="168" width="44" height="12" fill="#3a2a18"/>
+  <!-- Eyes -->
+  <rect x="180" y="192" width="8" height="8" fill="#222"/>
+  <rect x="200" y="192" width="8" height="8" fill="#222"/>
+  <!-- Mouth (big smile) -->
+  <rect x="180" y="204" width="28" height="4" fill="#fff"/>
+  <!-- Legs -->
+  <rect x="164" y="300" width="24" height="40" fill="#2244aa"/>
+  <rect x="196" y="300" width="24" height="40" fill="#2244aa"/>
+  <!-- Shoes -->
+  <rect x="160" y="336" width="32" height="12" fill="#444"/>
+  <rect x="192" y="336" width="32" height="12" fill="#444"/>
+  <!-- Left arm up -->
+  <rect x="120" y="140" width="20" height="20" fill="#f0c098"/>
+  <rect x="132" y="160" width="20" height="20" fill="#f0c098"/>
+  <rect x="144" y="180" width="20" height="20" fill="#ee3355"/>
+  <rect x="152" y="200" width="16" height="20" fill="#ee3355"/>
+  <!-- Right arm up -->
+  <rect x="240" y="140" width="20" height="20" fill="#f0c098"/>
+  <rect x="228" y="160" width="20" height="20" fill="#f0c098"/>
+  <rect x="216" y="180" width="20" height="20" fill="#ee3355"/>
+  <rect x="212" y="200" width="16" height="20" fill="#ee3355"/>
+
+  <!-- ===== PERSON RIGHT (arms up) ===== -->
+  <!-- Body -->
+  <rect x="740" y="220" width="60" height="80" fill="#22aa44"/>
+  <rect x="740" y="220" width="60" height="16" fill="#33bb55"/>
+  <!-- Head -->
+  <rect x="748" y="168" width="44" height="44" fill="#e0b080"/>
+  <rect x="748" y="168" width="44" height="12" fill="#ddbb44"/>
+  <!-- Eyes -->
+  <rect x="760" y="192" width="8" height="8" fill="#222"/>
+  <rect x="780" y="192" width="8" height="8" fill="#222"/>
+  <!-- Mouth -->
+  <rect x="760" y="204" width="28" height="4" fill="#fff"/>
+  <!-- Legs -->
+  <rect x="744" y="300" width="24" height="40" fill="#2244aa"/>
+  <rect x="776" y="300" width="24" height="40" fill="#2244aa"/>
+  <!-- Shoes -->
+  <rect x="740" y="336" width="32" height="12" fill="#444"/>
+  <rect x="772" y="336" width="32" height="12" fill="#444"/>
+  <!-- Left arm up -->
+  <rect x="700" y="140" width="20" height="20" fill="#e0b080"/>
+  <rect x="712" y="160" width="20" height="20" fill="#e0b080"/>
+  <rect x="724" y="180" width="20" height="20" fill="#22aa44"/>
+  <rect x="732" y="200" width="16" height="20" fill="#22aa44"/>
+  <!-- Right arm up -->
+  <rect x="820" y="140" width="20" height="20" fill="#e0b080"/>
+  <rect x="808" y="160" width="20" height="20" fill="#e0b080"/>
+  <rect x="796" y="180" width="20" height="20" fill="#22aa44"/>
+  <rect x="792" y="200" width="16" height="20" fill="#22aa44"/>
+
+  <!-- ===== CONFETTI (big blocky squares) ===== -->
+  <!-- Red -->
+  <rect x="60" y="40" width="20" height="20" fill="#ff3366" opacity="0.8"/>
+  <rect x="320" y="80" width="20" height="20" fill="#ff3366" opacity="0.75"/>
+  <rect x="620" y="40" width="20" height="20" fill="#ff3366" opacity="0.8"/>
+  <rect x="880" y="80" width="20" height="20" fill="#ff3366" opacity="0.75"/>
+  <rect x="500" y="100" width="20" height="20" fill="#ff3366" opacity="0.65"/>
+  <rect x="140" y="120" width="20" height="20" fill="#ff3366" opacity="0.6"/>
+  <rect x="820" y="120" width="20" height="20" fill="#ff3366" opacity="0.55"/>
+
+  <!-- Gold -->
+  <rect x="160" y="60" width="20" height="20" fill="#ffcc00" opacity="0.8"/>
+  <rect x="440" y="40" width="20" height="20" fill="#ffcc00" opacity="0.85"/>
+  <rect x="720" y="60" width="20" height="20" fill="#ffcc00" opacity="0.8"/>
+  <rect x="280" y="120" width="20" height="20" fill="#ffcc00" opacity="0.65"/>
+  <rect x="680" y="100" width="20" height="20" fill="#ffcc00" opacity="0.7"/>
+  <rect x="920" y="40" width="20" height="20" fill="#ffcc00" opacity="0.75"/>
+  <rect x="40" y="100" width="20" height="20" fill="#ffcc00" opacity="0.6"/>
+
+  <!-- Green -->
+  <rect x="240" y="40" width="20" height="20" fill="#33cc66" opacity="0.75"/>
+  <rect x="540" y="60" width="20" height="20" fill="#33cc66" opacity="0.8"/>
+  <rect x="800" y="40" width="20" height="20" fill="#33cc66" opacity="0.75"/>
+  <rect x="400" y="120" width="20" height="20" fill="#33cc66" opacity="0.6"/>
+  <rect x="100" y="80" width="20" height="20" fill="#33cc66" opacity="0.7"/>
+  <rect x="760" y="108" width="20" height="20" fill="#33cc66" opacity="0.55"/>
+
+  <!-- White -->
+  <rect x="360" y="60" width="16" height="16" fill="#fff" opacity="0.6"/>
+  <rect x="660" y="80" width="16" height="16" fill="#fff" opacity="0.55"/>
+  <rect x="200" y="100" width="16" height="16" fill="#fff" opacity="0.5"/>
+  <rect x="860" y="60" width="16" height="16" fill="#fff" opacity="0.55"/>
+  <rect x="480" y="80" width="16" height="16" fill="#fff" opacity="0.5"/>
+
+  <!-- ===== SPARKLE BURSTS (big blocky) ===== -->
+  <!-- Left sparkle -->
+  <rect x="90" y="20" width="8" height="28" fill="#fff" opacity="0.7"/>
+  <rect x="78" y="28" width="32" height="8" fill="#fff" opacity="0.7"/>
+
+  <!-- Right sparkle -->
+  <rect x="856" y="16" width="8" height="28" fill="#fff" opacity="0.7"/>
+  <rect x="844" y="24" width="32" height="8" fill="#fff" opacity="0.7"/>
+
+  <!-- Center sparkle -->
+  <rect x="476" y="4" width="8" height="28" fill="#fff" opacity="0.6"/>
+  <rect x="464" y="12" width="32" height="8" fill="#fff" opacity="0.6"/>
+
+  <!-- ===== STREAMERS ===== -->
+  <!-- Left streamer -->
+  <rect x="300" y="0" width="12" height="40" fill="#ff88cc" opacity="0.5"/>
+  <rect x="312" y="40" width="12" height="40" fill="#ff88cc" opacity="0.45"/>
+  <rect x="300" y="80" width="12" height="40" fill="#ff88cc" opacity="0.4"/>
+
+  <!-- Right streamer -->
+  <rect x="640" y="0" width="12" height="40" fill="#88ccff" opacity="0.5"/>
+  <rect x="628" y="40" width="12" height="40" fill="#88ccff" opacity="0.45"/>
+  <rect x="640" y="80" width="12" height="40" fill="#88ccff" opacity="0.4"/>
+
+  <!-- ===== BANNER "WIN" ===== -->
+  <rect x="340" y="40" width="280" height="60" fill="#ff4466" opacity="0.15"/>
+
+  <!-- ===== "#1" on trophy ===== -->
+  <rect x="456" y="208" width="12" height="8" fill="#fff" opacity="0.5"/>
+  <rect x="468" y="208" width="20" height="8" fill="#fff" opacity="0.5"/>
+  <rect x="476" y="216" width="12" height="8" fill="#fff" opacity="0.5"/>
+  <rect x="476" y="224" width="12" height="8" fill="#fff" opacity="0.5"/>
+  <rect x="476" y="232" width="12" height="8" fill="#fff" opacity="0.5"/>
+  <rect x="456" y="240" width="48" height="8" fill="#fff" opacity="0.5"/>
+</svg>

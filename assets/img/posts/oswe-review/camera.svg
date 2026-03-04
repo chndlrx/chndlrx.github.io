@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" shape-rendering="crispEdges">
+  <!-- Background -->
+  <rect width="960" height="400" fill="#e8e0d8"/>
+
+  <!-- ===== CAMERA BODY ===== -->
+  <!-- Main body -->
+  <rect x="200" y="120" width="560" height="200" fill="#333"/>
+  <!-- Body highlight top edge -->
+  <rect x="200" y="120" width="560" height="20" fill="#444"/>
+  <!-- Body shadow bottom edge -->
+  <rect x="200" y="300" width="560" height="20" fill="#222"/>
+  <!-- Body left shadow -->
+  <rect x="200" y="120" width="20" height="200" fill="#2a2a2a"/>
+  <!-- Body right shadow -->
+  <rect x="740" y="120" width="20" height="200" fill="#2a2a2a"/>
+
+  <!-- Grip (right side, textured) -->
+  <rect x="200" y="120" width="60" height="200" fill="#2a2a2a"/>
+  <rect x="200" y="120" width="60" height="20" fill="#333"/>
+  <!-- Grip texture dots -->
+  <rect x="216" y="156" width="12" height="12" fill="#222"/>
+  <rect x="236" y="156" width="12" height="12" fill="#222"/>
+  <rect x="216" y="180" width="12" height="12" fill="#222"/>
+  <rect x="236" y="180" width="12" height="12" fill="#222"/>
+  <rect x="216" y="204" width="12" height="12" fill="#222"/>
+  <rect x="236" y="204" width="12" height="12" fill="#222"/>
+  <rect x="216" y="228" width="12" height="12" fill="#222"/>
+  <rect x="236" y="228" width="12" height="12" fill="#222"/>
+  <rect x="216" y="252" width="12" height="12" fill="#222"/>
+  <rect x="236" y="252" width="12" height="12" fill="#222"/>
+  <rect x="216" y="276" width="12" height="12" fill="#222"/>
+  <rect x="236" y="276" width="12" height="12" fill="#222"/>
+
+  <!-- ===== VIEWFINDER HUMP ===== -->
+  <rect x="440" y="60" width="200" height="60" fill="#3a3a3a"/>
+  <rect x="440" y="60" width="200" height="20" fill="#444"/>
+  <rect x="440" y="60" width="20" height="60" fill="#333"/>
+  <rect x="620" y="60" width="20" height="60" fill="#333"/>
+
+  <!-- ===== LENS (big, centered, blocky) ===== -->
+  <!-- Outer lens ring -->
+  <rect x="380" y="140" width="200" height="160" fill="#555"/>
+  <!-- Inner lens barrel -->
+  <rect x="400" y="160" width="160" height="120" fill="#666"/>
+  <!-- Glass element -->
+  <rect x="430" y="180" width="100" height="80" fill="#2244aa"/>
+  <!-- Glass highlight -->
+  <rect x="440" y="188" width="40" height="32" fill="#4477cc" opacity="0.6"/>
+  <rect x="448" y="196" width="20" height="16" fill="#88bbee" opacity="0.5"/>
+  <!-- Glass dark center -->
+  <rect x="460" y="204" width="40" height="32" fill="#1a3388"/>
+
+  <!-- ===== SHUTTER BUTTON ===== -->
+  <rect x="300" y="80" width="60" height="40" fill="#666"/>
+  <rect x="310" y="86" width="40" height="28" fill="#888"/>
+  <rect x="320" y="92" width="20" height="16" fill="#aaa"/>
+
+  <!-- ===== MODE DIAL ===== -->
+  <rect x="380" y="80" width="40" height="40" fill="#555"/>
+  <rect x="388" y="88" width="24" height="24" fill="#666"/>
+  <rect x="396" y="96" width="8" height="8" fill="#888"/>
+
+  <!-- ===== HOT SHOE ===== -->
+  <rect x="480" y="40" width="120" height="20" fill="#555"/>
+  <rect x="500" y="44" width="80" height="12" fill="#666"/>
+
+  <!-- ===== FLASH ===== -->
+  <rect x="460" y="64" width="40" height="16" fill="#555"/>
+  <rect x="468" y="68" width="24" height="8" fill="#888"/>
+
+  <!-- ===== TOP LCD ===== -->
+  <rect x="280" y="80" width="10" height="40" fill="#333"/>
+
+  <!-- ===== SCREEN ON BACK (implied by rear details) ===== -->
+  <!-- Info dots on top plate -->
+  <rect x="660" y="80" width="20" height="20" fill="#555"/>
+  <rect x="664" y="84" width="12" height="12" fill="#333"/>
+  <rect x="668" y="88" width="4" height="4" fill="#ff3333" opacity="0.8"/>
+
+  <rect x="700" y="80" width="20" height="20" fill="#555"/>
+  <rect x="704" y="84" width="12" height="12" fill="#333"/>
+  <rect x="708" y="88" width="4" height="4" fill="#33ff33" opacity="0.6"/>
+
+  <!-- ===== STRAP LUGS ===== -->
+  <rect x="200" y="140" width="12" height="20" fill="#666"/>
+  <rect x="204" y="144" width="4" height="12" fill="#888"/>
+  <rect x="748" y="140" width="12" height="20" fill="#666"/>
+  <rect x="752" y="144" width="4" height="12" fill="#888"/>
+
+  <!-- ===== BRAND NAME AREA ===== -->
+  <rect x="460" y="128" width="120" height="8" fill="#444"/>
+
+  <!-- ===== BOTTOM PLATE ===== -->
+  <rect x="220" y="320" width="520" height="12" fill="#1a1a1a"/>
+
+  <!-- ===== TRIPOD MOUNT ===== -->
+  <rect x="440" y="320" width="40" height="12" fill="#666"/>
+  <rect x="452" y="324" width="16" height="4" fill="#888"/>
+</svg>
