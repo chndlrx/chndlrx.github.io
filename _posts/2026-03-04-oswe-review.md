@@ -5,10 +5,10 @@ categories: [hacking]
 tags: [certification]
 image:
   path: /assets/img/posts/oswe-review/oswe.png
-  alt: A description of the image for accessibility
+  alt: OffSec (Offensive Security) OSWE WEB-300 Certification Exam Write-up
 ---
 ## Introduction
-What's up everyone. I recently earned my [OSWE certification](https://www.offsec.com/courses/web-300/) and wanted to share my experience with the WEB-300 course and the 48-hour exam. Before I get into it, I think it's helpful to share a bit about where I was coming in so you can gauge how this might apply to you.
+What's up everyone. I recently earned my [OSWE (OffSec Web Expert) Certification](https://www.offsec.com/courses/web-300/) and wanted to share my experience with the WEB-300 course and the 48-hour exam. Before I get into it, I think it's helpful to share a bit about where I was coming in so you can gauge how this might apply to you.
 
 ### My Background Going In
 I came into OSWE as a working Penetration Tester with certifications including OSCP, BSCP, and GWAPT. I spend most of my professional time assessing web applications, so I was already comfortable with common vulnerability classes and had very strong experience with black box testing. I also lead the [OWASP Knoxville](https://owasp.org/www-chapter-knoxville/) chapter, where we regularly discuss application security topics. That said, I had no background in software development, so there were times where it felt pretty difficult performing static and dynamic source code analysis. Several vulnerabilities will require finding hidden functionality by tracing execution paths, identifying subtle logic flaws, and chaining multiple vulnerabilities into a full exploit.
@@ -16,7 +16,7 @@ I came into OSWE as a working Penetration Tester with certifications including O
 ## Course Overview
 WEB-300 (Advanced Web Attacks and Exploitation) is OffSec's course for their OSWE certification. It's designed for experienced security professionals who want to develop deep white box web application testing skills. The course walks you through real-world case studies, each centered around a vulnerable application where you analyze source code, identify flaws, and develop working exploits.
 
-The course explores a broad range of security vulnerabilities, including injection attacks, deserialization flaws, CSRF, SSRF, insecure cryptography, session hijacking, WebSocket exploitation, and other common web application weaknesses. Students are expected to possess a solid foundational understanding of these topics prior to participation, as they will be required to apply this knowledge in advanced, multifaceted scenarios. These scenarios often involve navigating around filters, safeguards, and various defensive mechanisms. For more specific details on course material, view the [course syllabus](https://www.offsec.com/documentation/awae-syllabus.pdf).
+The course explores a broad range of security vulnerabilities, including injection attacks, deserialization flaws, CSRF, SSRF, insecure cryptography, session hijacking, WebSocket exploitation, and other common web application weaknesses. Students are expected to possess a solid foundational understanding of these topics prior to participation, as they will be required to apply this knowledge in advanced, multifaceted scenarios. These scenarios often involve navigating around filters, safeguards, and various defensive mechanisms. For more specific details on course material, view the [OffSec (Offensive Security) OSWE AWAE (Advanced Web Application Exploitation) WEB-300 Course Syllabus](https://www.offsec.com/documentation/awae-syllabus.pdf).
 
 
 ### What Makes It Different
@@ -26,7 +26,7 @@ Unlike a lot of security courses that lean on automated tools, WEB-300 is almost
 
 ### Getting Started
 The first couple modules hit hard. There's a steep initial learning curve, especially if you haven't done much source code review before. The early case studies throw a lot of technical detail at you quickly. Be prepared to drink from the fire hose.  
-![fire-hose](/assets/img/posts/oswe-review/fire-hose.svg)  
+![Drinking From Fire Hose](/assets/img/posts/oswe-review/fire-hose.svg)  
 Once I got past that initial ramp-up, the material became much more manageable. The course does a good job at showcasing different methodologies in each lab. This is because there isn't a best methodology to follow in the white box testing world. Once you start recognizing patterns in how vulnerabilities appear in code, the process of tracing sources and sinks becomes more natural.
 
 ### Real Vulnerable Applications
@@ -37,7 +37,7 @@ One aspect I loved about the course is that real open-source applications are us
 Another recommendation is writing your exploit scripts from scratch rather than copying from the course material. The exam requires fully automated exploit scripts with zero manual interaction, and you want that muscle memory built up well before exam day. Additionally, several of the labs do not require you to develop exploit scripts. It would be in your best interest to get the reps during training to ensure your exam scripts are less stressful to write.
 
 ## The OSWE Exam
-![boxing-ring](/assets/img/posts/owe-review/boxing-ring.svg)  
+![Boxing Ring - OffSec OSWE Certification Exam](/assets/img/posts/oswe-review/boxing-ring.svg)  
 The OSWE exam is a 47-hour and 45-minute practical assessment, followed by an additional 24 hours to submit a professional penetration test report. It is remotely proctored for the entire duration.
 
 ### Scoring Breakdown
@@ -69,7 +69,7 @@ While taking the exam, this was my general approach:
 6. **Repeat**: Got through the authentication mechanism? Time to find a way to get RCE. Use the admin account to look for new features, perform threat modeling, and targeted code review. This approach may not always work, but it is a great place to start.
 
 ### Evidence
-![photographer](/assets/img/posts/owe-review/camera.svg)  
+![Camera - Screenshots for Reporting](/assets/img/posts/oswe-review/camera.svg)  
 Throughout the exam I took **tons** of screenshots. This was to ensure that I had enough evidence to submit in the report, without allocating time to reporting during the exam window. This worked out really well. Before ending my exam, I also double checked to ensure I had all the evidence needed to move on to reporting.
 
 ### Breaks and Mental State
@@ -78,7 +78,7 @@ I took a lot of breaks to recuperate. This helped keep the exam relaxed and I ev
 
 ## The Result
 After I submitted my report to OffSec, I got the email that I passed only 24 hours later. I was extremely impressed with how fast the exam was graded and how quick I got results back.
-![celebrate](/assets/img/posts/oswe-review/celebrate.svg)  
+![Celebrate - Pass the Certification Exam!](/assets/img/posts/oswe-review/celebrate.svg)  
 
 ## Tips for Future OSWE Candidates
 Based on my experience, here's what I'd recommend:
