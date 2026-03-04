@@ -25,12 +25,3 @@
     {% endif %}
   </p>
 </footer>
-```
-
-I just removed the entire second `<p>` block that contained the "Using the Chirpy theme for Jekyll" text. The footer will now only show `© 2026 Chandler Johnson.`
-
-Replace the contents of `_includes/footer.html` with this, then push:
-```
-git add .
-git commit -m "Remove theme credit from footer"
-git push origin master
