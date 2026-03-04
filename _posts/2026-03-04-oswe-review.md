@@ -4,7 +4,7 @@ date: 2026-03-04 00:00:00 -0500
 categories: [hacking]
 tags: [certification]
 image:
-  path: /assets/img/posts/oswe-review/owse.png
+  path: /assets/img/posts/oswe-review/oswe.png
   alt: A description of the image for accessibility
 ---
 ## Introduction
@@ -26,7 +26,7 @@ Unlike a lot of security courses that lean on automated tools, WEB-300 is almost
 
 ### Getting Started
 The first couple modules hit hard. There's a steep initial learning curve, especially if you haven't done much source code review before. The early case studies throw a lot of technical detail at you quickly. Be prepared to drink from the fire hose.  
-![fire-hose](/assets/img/posts/owe-review/fire-hose.svg)  
+![fire-hose](/assets/img/posts/oswe-review/fire-hose.svg)  
 Once I got past that initial ramp-up, the material became much more manageable. The course does a good job at showcasing different methodologies in each lab. This is because there isn't a best methodology to follow in the white box testing world. Once you start recognizing patterns in how vulnerabilities appear in code, the process of tracing sources and sinks becomes more natural.
 
 ### Real Vulnerable Applications
