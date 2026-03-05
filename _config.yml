@@ -19,7 +19,7 @@ title: Chandler Johnson # the main title
 tagline: Exploring hacking, AppSec, faith, and more. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Join Chandler Johnson (chndlrx) as he explores the intersection of cybersecurity, application security, bug bounty, and ethical hacking. This blog covers penetration testing techniques, security vulnerabilities, AppSec best practices, and the latest trends in information security. Beyond technical content, you'll find thoughtful reflections on faith, Christianity, family, and theology. Whether you're a security professional, aspiring hacker, or simply curious about cybersecurity, you'll find practical insights, tutorials, and perspectives to help you navigate the evolving landscape of digital security.
+  Join Chandler Johnson (chndlrx) as he explores topics such as hacking, AppSec, faith, and more.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -29,7 +29,7 @@ github:
   username: chndlrx # change to your GitHub username
 
 twitter:
-  username: chndlrx # change to your Twitter username
+  username: chndlrx_ # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -38,7 +38,7 @@ social:
   email: chndlrx@protonmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://x.com/chndlrx # change to your Twitter homepage
+    - https://x.com/chndlrx_ # change to your Twitter homepage
     - https://github.com/chndlrx # change to your GitHub homepage
     - https://www.linkedin.com/in/johnsonchandler/
 
