@@ -1,6 +1,6 @@
 ---
 title: "Hacking Web Applications With AI-Powered Browser Extension"
-date: 2026-03-08 07:30:00 -0500
+date: 2026-03-08
 categories: [ai]
 tags: [ai,hacking]
 image:
