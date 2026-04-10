@@ -14,7 +14,7 @@ This blog exists because I believe in sharing what I learn. The security communi
 
 ## Connect
 - LinkedIn: [Chandler Johnson](https://www.linkedin.com/in/johnsonchandler/)
-- X: [chndlrx](https://x.com/chndlrx)
+- X: [chndlrx](https://x.com/chndlrx_)
 
 ## Affiliations
 - [**OWASP Knoxville**](https://owasp.org/www-chapter-knoxville/): Chapter Leader
