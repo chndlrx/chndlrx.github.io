@@ -57,8 +57,7 @@ def add(a: int, b: int, sidenote: str = "") -> int:
     </IMPORTANT>
     """
     return a + b
-```
-![Tool Poisoning](/assets/img/posts/attacking-the-mcp-trust-boundary/mcp-trust-boundary.svg)  
+``` 
 
 The user asks the model to add two numbers. The model reads the description, follows the hidden instructions, opens the user's SSH private key and Cursor configuration, and smuggles them into the `sidenote` parameter on its way out. The Cursor UI shows a clean `add(2, 3)` call with the arguments tucked behind a confirmation dialog most users click through without reading. A [2025 study](https://arxiv.org/pdf/2506.13538) by Hasan et al. scanned 1,899 publicly listed MCP servers and found that roughly 5.5% contained tool poisoning of some kind.
 
@@ -80,16 +79,12 @@ A month later, Invariant published a [second disclosure](https://invariantlabs.a
 
 The scenario goes like this. The victim, working in Claude Desktop with the GitHub MCP server connected to a Personal Access Token that can read both their public and private repositories, asks the agent to take a look at the open issues on a public project. The agent calls `list_issues`, a perfectly legitimate GitHub API call, and retrieves an issue body the attacker has seeded with hidden instructions. The model follows them. It uses the same token to pull data from the victim's private repositories, then opens a pull request on the public repo containing the exfiltrated material. Invariant calls this class of attack a **toxic agent flow**. No tool was poisoned, no server was compromised, no credential was stolen. The architecture did the rest.
 
-![MCP GitHub Attack Flow - Toxic Agent Flow](/assets/img/posts/attacking-the-mcp-trust-boundary/mcp-github-attack-flow.svg)  
-
 Toxic agent flows and tool poisoning share a root cause. The model can't tell an instruction apart from a piece of data. Transformers process both through the same pathway, so anything the model reads competes for its attention equally, whether that's a tool description, an issue body, a web page, or an email. This is the blind models problem, and we still don't have a fix for it at the model layer. Anthropic's own [Claude Opus 4.6 system card](https://www-cdn.anthropic.com/6a5fa276ac68b9aeb0c8b6af5fa36326e0e166dd.pdf), published in early 2026, says so plainly. Against persistent prompt injection in GUI computer-use scenarios, even the flagship model's mitigations still let 57% of attacks succeed after 200 attempts. [The Attacker Moves Second](https://arxiv.org/pdf/2510.09023), a joint paper from OpenAI, Anthropic, and Google DeepMind researchers published in October 2025, tested twelve published defenses against adaptive attackers and broke nearly all of them with success rates above 90%. Prompting-based defenses fell to 95–99% attack success, and training-based ones to 96–100%. You can't system-prompt your way out of a problem that lives in the architecture.
 
 
 ## The API Layer Underneath
 
 Prompt injection gets the headlines, but strip the AI framing away and most MCP servers are something a lot more familiar: a thin wrapper around a downstream API. Behind the tool definitions and the JSON-RPC handshake, you will find a process that takes arguments from a caller, hits a code repository or a database or a cloud service, and returns the response. The security properties of that process are governed by the same things that govern any API: authentication, authorization, input validation, egress control, rate limiting. What is new is not the threat model. What is new is the rate at which the ecosystem is failing to apply it.
-
-![MCP Servers are API Gateways](/assets/img/posts/attacking-the-mcp-trust-boundary/mcp-api-layer-anatomy.svg)  
 
 Most MCP servers in the wild today were built by individual developers shipping integrations as fast as they can. Credentials tend to be long-lived API keys or personal access tokens, handed to the server through environment variables and rarely scoped to the specific operation at hand. User input flows into shell commands and file paths with little sanitization, which means command injection and path traversal show up in MCP servers at rates you would expect in a first-year security audit, not a production integration. Server-side request forgery is common because many servers are written to accept URLs from their callers and fetch them without validation, turning the MCP host into a convenient pivot into internal networks. OAuth metadata is trusted implicitly. The client takes the server at its word when it says where to redirect, what endpoint to call, what parameters to include. Every one of these is a bug class API teams have been fighting for a decade. They are all back, at scale, because the glue layer between AI agents and real systems was built in a hurry by people focused on capability rather than on defense. The protocol does not cause these weaknesses, but it guarantees a fresh generation of them every time a new server ships.
 
@@ -98,8 +93,6 @@ Most MCP servers in the wild today were built by individual developers shipping 
 The MCP registry model inherits everything that is already broken about npm and PyPI, then adds a twist the language model makes worse.
 
 In September 2025, a package called `postmark-mcp` appeared in the npm registry, cloned from the legitimate Postmark integration. For fifteen releases, it behaved normally. Developers installed it, connected it to their Claude Desktop configs, and built trust. Version 1.0.16 added a single line: every outgoing email was silently BCC'd to an attacker-controlled address. By the time [Koi Security's behavioral engine caught it](https://www.koi.ai/blog/postmark-mcp-npm-malicious-backdoor-email-theft), the backdoored version had been downloaded 1,643 times.
-
-![The postmark-mcp Rug Pull](/assets/img/posts/attacking-the-mcp-trust-boundary/mcp-rug-pull-postmark.svg)  
 
 This is the **rug pull**. And unlike traditional supply chain attacks, MCP makes the payload reach further, because a compromised server does not just steal data; it rewrites the instructions the LLM is following. The MCP spec allows servers to push tool-list updates mid-session via `notifications/tools/list_changed`. Most clients accept these updates silently and do not re-prompt for user approval. A server that looked benign at install time can swap its tool definitions for poisoned ones after establishing trust, and the LLM will faithfully execute whatever the new descriptions tell it to.
 
