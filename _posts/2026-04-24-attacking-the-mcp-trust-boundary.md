@@ -119,3 +119,7 @@ The authorization side of the protocol has also improved. Recent spec revisions 
 What is not yet solved, and may not be solvable in the current generation of models, is the model itself. As long as an LLM reads attacker-controlled text and trusted instructions through the same context window, it will occasionally follow the wrong one. Defenders who build on the assumption that the model will catch the attack are building on sand. The blind models do not see the trust boundary. We have to draw it for them. At the identity layer, at the network layer, at the process layer. With every tool we already know how to use.
 
 The MCP ecosystem is too valuable, and moving too fast, to ignore. But it is not an AI problem wearing a new hat. It is an old security problem at new scale, with a particularly credulous client sitting in the middle of it. Treat it that way.
+
+---
+
+Thanks for reading. If you have questions about MCP security or want to connect, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/johnsonchandler/) or [X](https://x.com/chndlrx).
