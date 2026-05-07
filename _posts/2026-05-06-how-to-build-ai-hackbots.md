@@ -206,7 +206,7 @@ target-claude.md  → the per-target CLAUDE.md template, used by start-target
 
 Every observation starts as a note. Some notes graduate to leads. Some leads graduate to findings. Some findings graduate to reports. Templates make graduation cheap, because the structure is already familiar from the previous tier. There's no "now I need to reformat into report shape" friction at the end. When I say "save this as a finding" the model reads `templates/finding.md`, fills in the fields, and writes the file. That only works because the templates are stable and short. If they were 200 lines of optional fields, the model would skip half of them and produce garbage.
 
-![AI cannot be trusted, but we love it anyway](/assets/img/posts/how-to-build-ai-hackbots/ai-risk.gif)  
+![Use templates for less trash](/assets/img/posts/how-to-build-ai-hackbots/trash.gif)  
 
 ## CLAUDE.md
 
@@ -223,7 +223,7 @@ The single most important file in the workspace is `.claude/CLAUDE.md`. It's the
 
 ## settings.json
 
-`.claude/settings.json` is where you tell Claude Code which commands it can run without asking for permission. It's a simple allow/deny list. Tighten it according to your appetite for risk.
+`.claude/settings.json` is where you tell Claude Code which commands it can run without asking for permission. It's a simple allow/deny list.
 
 ```json
 {
@@ -249,6 +249,8 @@ The single most important file in the workspace is `.claude/CLAUDE.md`. It's the
   }
 }
 ```
+
+Tighten it according to your appetite for risk.
 
 ![I totally trust AI!](/assets/img/posts/how-to-build-ai-hackbots/trust-issues.gif)  
 
