@@ -100,4 +100,4 @@ Based on my experience, here's what I'd recommend:
 ## Final Thoughts
 This was an awesome certification from OffSec. It was both more challenging and rewarding than I expected. This is also the first exam that I have had genuine fun with while taking. I would recommend this course to senior security professionals with a strong foundation in web applications. This course would also be great for software engineers since they are the ones often responsible for writing secure code in the first place.
 
-Thanks for reading. If you have questions about OSWE or want to connect, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/johnsonchandler/) or [X](https://x.com/chndlrx).
+Thanks for reading. If you have questions about OSWE or want to connect, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/johnsonchandler/) or [X](https://x.com/chndlrx_).
