@@ -69,7 +69,7 @@ While taking the exam, this was my general approach:
 6. **Repeat**: Got through the authentication mechanism? Time to find a way to get RCE. Use the admin account to look for new features, perform threat modeling, and targeted code review. This approach may not always work, but it is a great place to start.
 
 ### Evidence
-![Camera - Screenshots for Reporting](/assets/img/posts/oswe-review/camera.png)  
+![Camera - Screenshots for Reporting](/assets/img/posts/oswe-review/evidence.png)  
 Throughout the exam I took **tons** of screenshots. This was to ensure that I had enough evidence to submit in the report, without allocating time to reporting during the exam window. This worked out really well. Before ending my exam, I also double checked to ensure I had all the evidence needed to move on to reporting.
 
 ### Breaks and Mental State
