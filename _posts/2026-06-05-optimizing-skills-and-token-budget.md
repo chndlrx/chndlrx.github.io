@@ -143,8 +143,6 @@ Two practical takeaways from that table.
 
 **The body is a separate, sneakier cost.** That "under 500 lines" for `SKILL.md` is a *recommendation*, not a hard limit, but it matters, because the entire body loads into context every time the skill fires. A bloated body wastes tokens *and* dilutes the model's attention enough that instruction-adherence drops. The fix is the same on both platforms: **keep `SKILL.md` thin and fatten `references/`.** Reference files cost *zero* tokens until the agent actually opens one.
 
-![A thin SKILL.md that points to reference files keeps the always-loaded cost low](/assets/img/posts/optimizing-skills-and-token-budget/thin-skill-fat-references.png)  
-
 > **Tip:** Keep references **one level deep** from `SKILL.md`. If a reference links to another file that links to another, the agent tends to preview fragments instead of reading complete files.
 
 ```text
