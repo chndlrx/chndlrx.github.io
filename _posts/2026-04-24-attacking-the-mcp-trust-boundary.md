@@ -122,4 +122,4 @@ The MCP ecosystem is too valuable, and moving too fast, to ignore. But it is not
 
 ---
 
-Thanks for reading. If you have questions about MCP security or want to connect, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/johnsonchandler/) or [X](https://x.com/chndlrx).
+Thanks for reading. If you have questions about MCP security or want to connect, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/johnsonchandler/) or [X](https://x.com/chndlrx_).
