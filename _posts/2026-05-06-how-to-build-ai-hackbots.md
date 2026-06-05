@@ -430,4 +430,4 @@ It is genuinely fun to use. It is also a real piece of leverage in offensive eng
 
 ---
 
-Thanks for reading. If you have questions about building hackbots or want to connect, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/johnsonchandler/) or [X](https://x.com/chndlrx).
+Thanks for reading. If you have questions about building hackbots or want to connect, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/johnsonchandler/) or [X](https://x.com/chndlrx_).
