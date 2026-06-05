@@ -357,4 +357,4 @@ Oh, and here's a fun fact for the road. In the Claude in Chrome settings is a **
 ![Claude in Chrome Microphone Settings](/assets/img/posts/claude-chrome-hacking/claude-voice.png)
 
 ---
-Thanks for reading. If you have questions about AI-assisted security testing or want to connect, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/johnsonchandler/) or [X](https://x.com/chndlrx).
+Thanks for reading. If you have questions about AI-assisted security testing or want to connect, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/johnsonchandler/) or [X](https://x.com/chndlrx_).
