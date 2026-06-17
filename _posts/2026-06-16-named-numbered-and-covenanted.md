@@ -82,7 +82,7 @@ This is a window onto what Christ comes back to finish. Isaiah is looking past h
 
 ## What It Means for Us
 
-Here is the tension Genesis hands me, and I think it is meant to be held, not resolved. We are *over* the creatures. Adam named them; that was authority. And we are *under* a God who stooped to covenant with those same creatures and still counts them one by one. Our rule sits inside His care. That reframes what dominion is supposed to look like. If the God we answer to guarantees the animals their future and notices every sparrow that falls, then authority that looks like careless use is a counterfeit.
+We are *over* the creatures. Adam named them; that was authority. And we are *under* a God who stooped to covenant with those same creatures and still counts them one by one. Our rule sits inside His care. That reframes what dominion is supposed to look like. If the God we answer to guarantees the animals their future and notices every sparrow that falls, then authority that looks like careless use is a counterfeit.
 
 > Whoever is righteous has regard for the life of his beast, but the mercy of the wicked is cruel. — [Proverbs 12:10](https://www.biblegateway.com/passage/?search=Proverbs%2012%3A10&version=ESV) (ESV)
 
@@ -110,7 +110,7 @@ I went to Cades Cove for a fun bike ride and came back thinking about Genesis. W
 
 ![Black bears in the distance](/assets/img/posts/named-numbered-and-covenanted/bear-far.gif)  
 
-That should change how I carry myself through the world he made. Pay attention. Name things truly. Hold the authority I have been given the way He holds His: leaning down, keeping, merciful. The next time you see a bear, or a rainbow, or a sparrow on the ground, remember that not one of them is outside his notice. And neither are you.
+That should change how I carry myself through the world He made. Pay attention. Name things truly. Hold the authority I have been given the way He holds His: leaning down, keeping, merciful. The next time you see a bear, or a rainbow, or a sparrow on the ground, remember that not one of them is outside his notice. And neither are you.
 
 ---
 
